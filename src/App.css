@@ -31,10 +31,11 @@ a:hover{
     transform: scale(1.05);
 }
 
-nav button{
+button{
     padding:8px 15px;
     border-radius: 5px;
     border: none;
+    margin-left:10px;
     background: linear-gradient(45deg, #ff4848, #ff7e7e, #ff4848);
     color:azure;
     font-size: 14px;
@@ -44,4 +45,25 @@ nav button{
 button:hover{
     transform: scale(1.1);
 
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.hero-content{
+    padding: 0 8rem;
+}
+
+.hero-content h1{
+    font-size: 3.2rem;
+    font-weight: 1000;
+}
+
+.brand-icons img{
+    margin-right: 10px;
 }
